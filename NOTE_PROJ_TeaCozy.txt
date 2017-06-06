@@ -1,0 +1,24 @@
+SEZIONI:
+
+<Header>
+CSS: L'intera sezione (flex container con 2 flex items: logo / nav-links) deve essere fissa
+CSS: I tre link devono essere "display: inline;"
+
+Mission
+CSS: deve avere l'immagine di sfondo img-mission-background.jpg
+Il testo "Our Mission" deve stare al centro e scorrere in alto/basso con l'immagine. Sta fermo nella pagina, senza riadattarsi.
+
+Featured Tea
+Titolo + Paragrafo
+CSS: flex container (<div class="store">) con 5 flex item (<div class="tea">), ognuna con immagine e titolo a distanze regolari tra di loro e dall'inizio e dalla fine della linea (justify-content: space-around;). Stanno ferme nella pagina, senza riadattarsi.
+
+Locations
+CSS: Immagine di sfondo img-locations-background.jpg
+CSS: 3 flex item con "justify-content: space-around;". Stanno ferme nella pagina, senza riadattarsi.
+
+??? Contact + Footer: unica sezione o due sezioni distinte? Forse due flex item (<div>) con "display: block;". Una allineata al centro, l'altra a sin.
+
+<Footer>
+CSS: senza immagine di sfondo
+Titolo + paragrafo e-mail + paragrafo tel. sempre al centro riadattandosi alla larghezza della pagina
+paragrafo copyright sempre a sin.
