@@ -1,0 +1,116 @@
+/* General */
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    height: 69px;
+    position: fixed;
+    background-color: inherit;
+    width:100%;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+    text-align: left;
+} 
+
+nav {
+    text-align: right;
+}  
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+#flexcontainer-header {
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    padding-top: 70px;
+    background-image: url("../images/img-mission-background.jpg");
+    align-items: center;
+}
+
+.mission {
+    background-color: black;
+    width:100%;
+}
+
+
+/* Store */
+
+#flexcontainer-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    align-content: space-around;
+}
+
+.product img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+/* Locations */
+
+#locations {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/img-locations-background.jpg)
+    
+}
+
+#flexcontainer-locations { 
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.shop {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px;
+}
+
+/* Contact */
+
+#contact {
+    height: 200px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
